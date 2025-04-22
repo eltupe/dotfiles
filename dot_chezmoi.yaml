@@ -1,0 +1,3 @@
+scripts:
+  postApply:
+    - .local/bin/setup.sh
