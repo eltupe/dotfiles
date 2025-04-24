@@ -32,9 +32,10 @@ fi
 if ! command -v brew &>/dev/null; then
   echo "Installing Homebrew..."
   NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 else
   echo "Homebrew already installed. Skipping."
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 echo "Bootstrap setup complete."
