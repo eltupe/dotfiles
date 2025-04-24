@@ -12,7 +12,6 @@ config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
 
 config.keys = {
- -- Clears the scrollback and viewport leaving the prompt line the new first line.
   {
     key = 'K',
     mods = 'CMD|SHIFT',

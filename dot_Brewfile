@@ -1,8 +1,12 @@
+tap "hashicorp/tap"
+tap "homebrew/services"
+
 brew "ansible"
 brew "chezmoi"
 brew "git-flow"
 brew "go"
 brew "terraform"
+
 cask "betterdisplay"
 cask "brave-browser"
 cask "bruno"
